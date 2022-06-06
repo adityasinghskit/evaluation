@@ -1,8 +1,7 @@
 package q2;
 
 public class Loan {
-	private Loan() {
-		
+	 Loan() {
 	}
 	public Loan getLoan() {
 		return new Loan();

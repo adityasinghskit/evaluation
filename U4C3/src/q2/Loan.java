@@ -1,9 +1,10 @@
 package q2;
 
 public class Loan {
-	 Loan() {
+	private Loan() {
 	}
-	public Loan getLoan() {
+	public static Loan getLoan() {
+		
 		return new Loan();
 	}
 	public double calculateLoanAmount(Employee employeeObj) {

@@ -24,5 +24,8 @@ public static void main(String[] args) {
 	catch(InputMismatchException in) {
 		System.out.println(in);
 	}
+	catch(Exception e) {
+		System.out.println(e);
+	}
 }
 }
